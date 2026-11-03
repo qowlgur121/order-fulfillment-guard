@@ -1,0 +1,9 @@
+[project]
+name = "order-fulfillment-guard"
+version = "0.1.0"
+description = "결과를 알 수 없는 외부 구매에서 이중 구매를 막는 주문 처리 예제"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
